@@ -1,58 +1,3 @@
-//BookProject.java.............
-/*1. NetBeans চালু করো।
-
-
-2. File → New Project ক্লিক করো।
-
-
-3. Java → Java Application সিলেক্ট করে Next চাপো।
-
-
-4. Project Name দাও: BookProject
-
-
-5. Create Main Class এর টিক তুলে দাও (আমরা নিজে Main বানাবো)।
-
-
-6. Finish ক্লিক করো।
-
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
-package com.mycompany.bookproject;
-
-/**
- *
- * @author Aysha
- */
-public class BookProject {
-
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
-}
-
-//Book.java............
-/*Step 2: Book Class তৈরি করা
-
-1. বাম পাশে Project Window থেকে Source Packages-এ রাইট-ক্লিক → New → Java Class।
-
-
-2. Class Name: Book (প্যাকেজ খালি রাখলে সহজ হবে)
-
-
-3. Finish ক্লিক করো।
-
-
-4. আসা ফাইলটায় নিচের কোড পেস্ট করে Ctrl + S দাও:
-
-
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
 /**
  *
  * @author Aysha
@@ -90,17 +35,6 @@ public class Book {
     }
 }
 
-
-//BookTest.java.....................
-//Step 3: Main Class (BookTest) তৈরি করা
-
-//1. আবার Source Packages-এ রাইট-ক্লিক → New → Java Class।
-
-
-//2. Class Name: BookTest → Finish।
-
-
-//3. নিচের কোড পেস্ট করে Ctrl + S দাও:
 
 
 import java.util.Scanner;
@@ -148,21 +82,7 @@ public class BookTest {
         sc.close();
     }
 }
-//Step 4: প্রোগ্রাম রান করা
 
-//1. BookTest.java-এর উপর রাইট-ক্লিক → Run File (অথবা Shift + F6)।
-
-
-//2. নিচে Output Window-এ ইনপুট দাও।
-
-
-
-
-//---
-
-//🖥 Sample Input / Output (তোমার দেওয়া ডেটা অনুযায়ী)
-
-//Input (যা টাইপ করবে):
 
 //How many books do you want to enter? 5
 
